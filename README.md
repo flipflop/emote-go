@@ -43,9 +43,13 @@ leaves it.
 
 ## Install (macOS arm64)
 
-Grab the bundle from the [latest release](https://github.com/flipflop/emote-go/releases):
+Download the compiled binary bundle —
+[emote-go-v0.1.0-darwin-arm64.tar.gz](https://github.com/flipflop/emote-go/releases/download/v0.1.0/emote-go-v0.1.0-darwin-arm64.tar.gz)
+(12 MB: the `emote-go` binary plus the two dylibs it needs) — or browse the
+[releases page](https://github.com/flipflop/emote-go/releases):
 
 ```sh
+curl -LO https://github.com/flipflop/emote-go/releases/download/v0.1.0/emote-go-v0.1.0-darwin-arm64.tar.gz
 tar xzf emote-go-v0.1.0-darwin-arm64.tar.gz
 cd emote-go-v0.1.0-darwin-arm64
 xattr -d com.apple.quarantine emote-go lib/*.dylib   # ad-hoc signed; see Limitations
