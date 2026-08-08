@@ -1,0 +1,13 @@
+Quick status update 🛠️ on the widget work.
+
+```python
+print("done ✅")
+```
+
+- The temperature label now shows 25° correctly 🌡️
+- Fixed the café naming bug — accents are safe now
+- Stray glyphs like 🃀 no longer reach the UI
+
+Warning ⚠️: the 🧪 suite must be re-run before merge.
+
+Everything works 👍👍🏽 now!

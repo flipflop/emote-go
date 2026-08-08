@@ -1,0 +1,3 @@
+[sad] Traceback (most recent call last): boom. 2 tests failed in the suite. The build is broken.
+[neutral] Warning: this API is deprecated.
+[happy] Fixed 3 tests but 1 still failed.

@@ -1,0 +1,17 @@
+# Session notes
+
+> Reminder: the API rate limit resets at midnight UTC.
+
+I reviewed the three services and none of them need changes today. The gateway config at /etc/gateway/config.yaml already routes traffic correctly, and the docs at https://internal.example.com/wiki/gateway#routing are up to date. The remaining work is small. It should take under an hour. Most of it is renaming.
+
+---
+
+- Gateway
+  - keep the current retry policy
+  - drop the legacy header
+- Billing service
+
+1. Tag the release
+2. Update the changelog
+
+That covers everything from today's review.

@@ -1,0 +1,3 @@
+[33mwarning:[0m deprecated API used
+
+[1m[32m✓ All 12 checks passed[0m

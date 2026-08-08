@@ -1,0 +1,2 @@
+[sad] 3 tests failed in the integration suite. The first failure is a timeout, the other two share the same traceback.
+[neutral] Next steps: I can bisect the regression or revert the last change to queue.py.

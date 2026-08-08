@@ -1,0 +1,10 @@
+# Model artifacts — downloaded, not source (see models/MANIFEST.txt for hashes)
+models/
+# Rendered/scratch audio (ship references in refs/ ARE tracked)
+*.wav
+!refs/*.wav
+# Build output
+/emote-go
+dist/
+# macOS
+.DS_Store

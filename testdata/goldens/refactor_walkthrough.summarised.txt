@@ -1,0 +1,1 @@
+[calm] Here's how I'd restructure the config loader. Let me explain the approach step by step, because the current version mixes parsing and validation. Would you like me to apply the refactor now, or walk through the diff first?

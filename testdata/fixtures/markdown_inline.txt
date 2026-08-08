@@ -1,0 +1,7 @@
+This is **bold** and *emphasis* and _quiet_ and __strong__ text.
+
+Run `npm test` now, then see [the docs](https://example.com/page) here.
+
+POST to http://localhost:8123/api/tts with JSON. Details at https://docs.python.org/3/library/urllib.html today.
+
+Edit tests/test_extract.py and ~/.config/emote/config.json now. Choose one and/or both, open 24/7. See ![diagram](assets/diagram.png) too.

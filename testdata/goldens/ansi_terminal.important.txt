@@ -1,0 +1,2 @@
+[neutral] warning: deprecated API used.
+[happy] ✓ All 12 checks passed.

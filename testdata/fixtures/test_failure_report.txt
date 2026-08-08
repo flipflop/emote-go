@@ -1,0 +1,19 @@
+## Test results
+
+3 tests failed in the integration suite. The first failure is a timeout, the other two share the same traceback.
+
+```console
+FAILED tests/test_sync.py::test_retry - TimeoutError
+FAILED tests/test_sync.py::test_backoff - ValueError: bad state
+FAILED tests/test_sync.py::test_flush - ValueError: bad state
+```
+
+Warning: the fixtures directory is shared between suites, so re-running only one file can hide the error.
+
+| Test | Status |
+| ---- | ------ |
+| test_retry | failed |
+| test_backoff | failed |
+| test_flush | failed |
+
+Next steps: I can bisect the regression or revert the last change to ~/work/sync/queue.py. Which do you prefer?

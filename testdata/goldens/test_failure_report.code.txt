@@ -1,0 +1,4 @@
+[sad] 3 tests failed in the integration suite. The first failure is a timeout, the other two share the same traceback.
+[neutral] console code, 3 lines.
+[sad] FAILED tests slash test underscore sync dot py double colon test underscore retry dash TimeoutError. FAILED tests slash test underscore sync dot py double colon test underscore backoff dash ValueError colon bad state. FAILED tests slash test underscore sync dot py double colon test underscore flush dash ValueError colon bad state.
+[neutral] Next steps: I can bisect the regression or revert the last change to queue.py.

@@ -1,0 +1,19 @@
+Traceback (most recent call last): boom
+
+2 tests failed in the suite.
+
+The build is broken.
+
+Warning: this API is deprecated.
+
+All 47 tests passed.
+
+Deployed successfully.
+
+Would you like me to continue?
+
+The config lives in one file.
+
+Fixed 3 tests but 1 still failed.
+
+Everything passed, shall we merge?

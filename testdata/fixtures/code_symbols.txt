@@ -1,0 +1,17 @@
+```python
+def fetch_data(url) -> dict:
+    if a == b:
+        x = items[0]
+    total += 1
+
+    return {"k": x % 2, "items": [x, b]}
+```
+
+```rust
+let x;
+```
+
+```
+foo
+bar
+```

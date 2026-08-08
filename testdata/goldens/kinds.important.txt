@@ -1,0 +1,7 @@
+[sad] Traceback (most recent call last): boom. 2 tests failed in the suite. The build is broken.
+[neutral] Warning: this API is deprecated.
+[excited] All 47 tests passed.
+[happy] Deployed successfully.
+[calm] Would you like me to continue?
+[happy] Fixed 3 tests but 1 still failed.
+[neutral] Everything passed, shall we merge?

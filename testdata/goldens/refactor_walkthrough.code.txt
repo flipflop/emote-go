@@ -1,0 +1,3 @@
+[calm] Here's how I'd restructure the config loader. Let me explain the approach step by step, because the current version mixes parsing and validation.
+[neutral] Python code, 3 lines. def load open paren path equals quote tilde slash dot config slash app dot json quote close paren colon. raw equals read underscore file open paren path close paren. return apply underscore env open paren raw close paren.
+[calm] Would you like me to apply the refactor now, or walk through the diff first?

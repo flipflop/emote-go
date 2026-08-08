@@ -1,0 +1,1 @@
+[sad] 3 tests failed in the integration suite. The first failure is a timeout, the other two share the same traceback. Warning: the fixtures directory is shared between suites, so re-running only one file can hide the error.

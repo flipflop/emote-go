@@ -1,0 +1,1 @@
+[neutral] Reminder: the API rate limit resets at midnight UTC. That covers everything from today's review.

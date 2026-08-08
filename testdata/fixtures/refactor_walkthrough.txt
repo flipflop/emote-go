@@ -1,0 +1,17 @@
+## Refactoring plan
+
+Here's how I'd restructure the config loader. Let me explain the approach step by step, because the current version mixes parsing and validation.
+
+1. Split `load()` into `read_file()` and `apply_env()`
+2. Move the coercion helpers into their own module
+3. Add a schema check before saving
+
+```python
+def load(path="~/.config/app.json"):
+    raw = read_file(path)
+    return apply_env(raw)
+```
+
+The full diff is in src/config/loader.py and touches about 40 lines.
+
+Would you like me to apply the refactor now, or walk through the diff first?
